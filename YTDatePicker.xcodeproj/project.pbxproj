@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		837DC76928E159EB00BA24FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837DC76828E159EB00BA24FB /* AppDelegate.swift */; };
+		837DC76B28E159EB00BA24FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837DC76A28E159EB00BA24FB /* SceneDelegate.swift */; };
+		837DC76D28E159EB00BA24FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837DC76C28E159EB00BA24FB /* ViewController.swift */; };
+		837DC77028E159EB00BA24FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837DC76E28E159EB00BA24FB /* Main.storyboard */; };
+		837DC77228E159ED00BA24FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837DC77128E159ED00BA24FB /* Assets.xcassets */; };
+		837DC77528E159ED00BA24FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837DC77328E159ED00BA24FB /* LaunchScreen.storyboard */; };
+		837DC78028E159ED00BA24FB /* YTDatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837DC77F28E159ED00BA24FB /* YTDatePickerTests.swift */; };
+		837DC78A28E159ED00BA24FB /* YTDatePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837DC78928E159ED00BA24FB /* YTDatePickerUITests.swift */; };
+		837DC78C28E159ED00BA24FB /* YTDatePickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837DC78B28E159ED00BA24FB /* YTDatePickerUITestsLaunchTests.swift */; };
+		837DC79B28E15A2C00BA24FB /* YTDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837DC79A28E15A2C00BA24FB /* YTDatePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		837DC77C28E159ED00BA24FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837DC75D28E159EB00BA24FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837DC76428E159EB00BA24FB;
+			remoteInfo = YTDatePicker;
+		};
+		837DC78628E159ED00BA24FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837DC75D28E159EB00BA24FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837DC76428E159EB00BA24FB;
+			remoteInfo = YTDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		837DC76528E159EB00BA24FB /* YTDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		837DC76828E159EB00BA24FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		837DC76A28E159EB00BA24FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		837DC76C28E159EB00BA24FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		837DC76F28E159EB00BA24FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		837DC77128E159ED00BA24FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		837DC77428E159ED00BA24FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		837DC77628E159ED00BA24FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837DC77B28E159ED00BA24FB /* YTDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837DC77F28E159ED00BA24FB /* YTDatePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTDatePickerTests.swift; sourceTree = "<group>"; };
+		837DC78528E159ED00BA24FB /* YTDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837DC78928E159ED00BA24FB /* YTDatePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTDatePickerUITests.swift; sourceTree = "<group>"; };
+		837DC78B28E159ED00BA24FB /* YTDatePickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTDatePickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		837DC79A28E15A2C00BA24FB /* YTDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTDatePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		837DC76228E159EB00BA24FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837DC77828E159ED00BA24FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837DC78228E159ED00BA24FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		837DC75C28E159EB00BA24FB = {
+			isa = PBXGroup;
+			children = (
+				837DC76728E159EB00BA24FB /* YTDatePicker */,
+				837DC77E28E159ED00BA24FB /* YTDatePickerTests */,
+				837DC78828E159ED00BA24FB /* YTDatePickerUITests */,
+				837DC76628E159EB00BA24FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		837DC76628E159EB00BA24FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837DC76528E159EB00BA24FB /* YTDatePicker.app */,
+				837DC77B28E159ED00BA24FB /* YTDatePickerTests.xctest */,
+				837DC78528E159ED00BA24FB /* YTDatePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		837DC76728E159EB00BA24FB /* YTDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				837DC79928E159FD00BA24FB /* DatePicker */,
+				837DC76828E159EB00BA24FB /* AppDelegate.swift */,
+				837DC76A28E159EB00BA24FB /* SceneDelegate.swift */,
+				837DC76C28E159EB00BA24FB /* ViewController.swift */,
+				837DC76E28E159EB00BA24FB /* Main.storyboard */,
+				837DC77128E159ED00BA24FB /* Assets.xcassets */,
+				837DC77328E159ED00BA24FB /* LaunchScreen.storyboard */,
+				837DC77628E159ED00BA24FB /* Info.plist */,
+			);
+			path = YTDatePicker;
+			sourceTree = "<group>";
+		};
+		837DC77E28E159ED00BA24FB /* YTDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				837DC77F28E159ED00BA24FB /* YTDatePickerTests.swift */,
+			);
+			path = YTDatePickerTests;
+			sourceTree = "<group>";
+		};
+		837DC78828E159ED00BA24FB /* YTDatePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				837DC78928E159ED00BA24FB /* YTDatePickerUITests.swift */,
+				837DC78B28E159ED00BA24FB /* YTDatePickerUITestsLaunchTests.swift */,
+			);
+			path = YTDatePickerUITests;
+			sourceTree = "<group>";
+		};
+		837DC79928E159FD00BA24FB /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				837DC79A28E15A2C00BA24FB /* YTDatePicker.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		837DC76428E159EB00BA24FB /* YTDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837DC78F28E159ED00BA24FB /* Build configuration list for PBXNativeTarget "YTDatePicker" */;
+			buildPhases = (
+				837DC76128E159EB00BA24FB /* Sources */,
+				837DC76228E159EB00BA24FB /* Frameworks */,
+				837DC76328E159EB00BA24FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTDatePicker;
+			productName = YTDatePicker;
+			productReference = 837DC76528E159EB00BA24FB /* YTDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		837DC77A28E159ED00BA24FB /* YTDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837DC79228E159ED00BA24FB /* Build configuration list for PBXNativeTarget "YTDatePickerTests" */;
+			buildPhases = (
+				837DC77728E159ED00BA24FB /* Sources */,
+				837DC77828E159ED00BA24FB /* Frameworks */,
+				837DC77928E159ED00BA24FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837DC77D28E159ED00BA24FB /* PBXTargetDependency */,
+			);
+			name = YTDatePickerTests;
+			productName = YTDatePickerTests;
+			productReference = 837DC77B28E159ED00BA24FB /* YTDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		837DC78428E159ED00BA24FB /* YTDatePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837DC79528E159ED00BA24FB /* Build configuration list for PBXNativeTarget "YTDatePickerUITests" */;
+			buildPhases = (
+				837DC78128E159ED00BA24FB /* Sources */,
+				837DC78228E159ED00BA24FB /* Frameworks */,
+				837DC78328E159ED00BA24FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837DC78728E159ED00BA24FB /* PBXTargetDependency */,
+			);
+			name = YTDatePickerUITests;
+			productName = YTDatePickerUITests;
+			productReference = 837DC78528E159ED00BA24FB /* YTDatePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		837DC75D28E159EB00BA24FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					837DC76428E159EB00BA24FB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					837DC77A28E159ED00BA24FB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 837DC76428E159EB00BA24FB;
+					};
+					837DC78428E159ED00BA24FB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 837DC76428E159EB00BA24FB;
+					};
+				};
+			};
+			buildConfigurationList = 837DC76028E159EB00BA24FB /* Build configuration list for PBXProject "YTDatePicker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 837DC75C28E159EB00BA24FB;
+			productRefGroup = 837DC76628E159EB00BA24FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				837DC76428E159EB00BA24FB /* YTDatePicker */,
+				837DC77A28E159ED00BA24FB /* YTDatePickerTests */,
+				837DC78428E159ED00BA24FB /* YTDatePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		837DC76328E159EB00BA24FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837DC77528E159ED00BA24FB /* LaunchScreen.storyboard in Resources */,
+				837DC77228E159ED00BA24FB /* Assets.xcassets in Resources */,
+				837DC77028E159EB00BA24FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837DC77928E159ED00BA24FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837DC78328E159ED00BA24FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837DC76128E159EB00BA24FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837DC76D28E159EB00BA24FB /* ViewController.swift in Sources */,
+				837DC76928E159EB00BA24FB /* AppDelegate.swift in Sources */,
+				837DC79B28E15A2C00BA24FB /* YTDatePicker.swift in Sources */,
+				837DC76B28E159EB00BA24FB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837DC77728E159ED00BA24FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837DC78028E159ED00BA24FB /* YTDatePickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837DC78128E159ED00BA24FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837DC78A28E159ED00BA24FB /* YTDatePickerUITests.swift in Sources */,
+				837DC78C28E159ED00BA24FB /* YTDatePickerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		837DC77D28E159ED00BA24FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837DC76428E159EB00BA24FB /* YTDatePicker */;
+			targetProxy = 837DC77C28E159ED00BA24FB /* PBXContainerItemProxy */;
+		};
+		837DC78728E159ED00BA24FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837DC76428E159EB00BA24FB /* YTDatePicker */;
+			targetProxy = 837DC78628E159ED00BA24FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		837DC76E28E159EB00BA24FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837DC76F28E159EB00BA24FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		837DC77328E159ED00BA24FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837DC77428E159ED00BA24FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		837DC78D28E159ED00BA24FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		837DC78E28E159ED00BA24FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		837DC79028E159ED00BA24FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YTDatePicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wk.demo1.YTDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		837DC79128E159ED00BA24FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YTDatePicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wk.demo1.YTDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		837DC79328E159ED00BA24FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wk.demo1.YTDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTDatePicker.app/YTDatePicker";
+			};
+			name = Debug;
+		};
+		837DC79428E159ED00BA24FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wk.demo1.YTDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTDatePicker.app/YTDatePicker";
+			};
+			name = Release;
+		};
+		837DC79628E159ED00BA24FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wk.demo1.YTDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTDatePicker;
+			};
+			name = Debug;
+		};
+		837DC79728E159ED00BA24FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wk.demo1.YTDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTDatePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		837DC76028E159EB00BA24FB /* Build configuration list for PBXProject "YTDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837DC78D28E159ED00BA24FB /* Debug */,
+				837DC78E28E159ED00BA24FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837DC78F28E159ED00BA24FB /* Build configuration list for PBXNativeTarget "YTDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837DC79028E159ED00BA24FB /* Debug */,
+				837DC79128E159ED00BA24FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837DC79228E159ED00BA24FB /* Build configuration list for PBXNativeTarget "YTDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837DC79328E159ED00BA24FB /* Debug */,
+				837DC79428E159ED00BA24FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837DC79528E159ED00BA24FB /* Build configuration list for PBXNativeTarget "YTDatePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837DC79628E159ED00BA24FB /* Debug */,
+				837DC79728E159ED00BA24FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 837DC75D28E159EB00BA24FB /* Project object */;
+}
